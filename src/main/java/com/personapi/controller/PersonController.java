@@ -20,10 +20,7 @@ public class PersonController {
 
    @PostMapping
    public  Person createPerson(@RequestBody Person person) {     
-       return personRepository.save(person);
-
-       
-          
+       return personRepository.save(person);         
    }
    
 }
